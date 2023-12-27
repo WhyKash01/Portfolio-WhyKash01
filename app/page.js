@@ -1,3 +1,4 @@
+import Contact from './components/Contact';
 import Header from './components/Header'
 import HeroPage from './components/HeroPage'
 import Projects from './components/Projects';
@@ -10,6 +11,7 @@ export default function Home() {
     <HeroPage/>
     <Skills/>
     <Projects/>
+    <Contact/>
     </>
   )
 }

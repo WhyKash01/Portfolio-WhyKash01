@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  
+  scroll-behavior: smooth;
+}
 body{
   color: white;
   font-weight: 600;
