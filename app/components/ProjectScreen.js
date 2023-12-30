@@ -18,6 +18,8 @@ const ProjectScreen = (props) => {
         src2: game2,
         src3: game3,
         src4: game4,
+        text: "Gamers Galaxy",
+        description: "E-commerce Wedsite made with Next Js",
         Link: 'https://github.com/WhyKash01/Next-Gamers-galaxy.git'
     },
     {
@@ -25,6 +27,8 @@ const ProjectScreen = (props) => {
         src2: Portfolio2,
         src3: Portfolio3,
         src4: Portfolio4,
+        text: "Portfolio",
+        description: "Portfolio Wedsite made with Next Js",
         Link: 'https://github.com/WhyKash01/Portfolio-WhyKash01.git'
     }]
   return (
@@ -51,8 +55,8 @@ const ProjectScreen = (props) => {
         </div>
         <div className='lg:mx-5 mx-5 flex justify-between lg:my-3 my-2'>
             <div>
-            <h3 className='xl:text-xl lg:text-3xl text-lg '>Gamers Galaxy</h3>
-            <h3 className='xl:text-sm lg:text-xl text-xs font-[400] '>E-commerce Wedsite made with Next Js</h3>
+            <h3 className='xl:text-xl lg:text-3xl text-lg '>{object[i].text}</h3>
+            <h3 className='xl:text-sm lg:text-xl text-xs font-[400] '>{object[i].description}</h3>
             </div>
             <div className='my-auto '>
                 <Link href={object[i].Link}>
