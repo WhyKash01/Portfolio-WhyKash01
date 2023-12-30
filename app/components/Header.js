@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 // import './Header.css';
 import logo from './../../public/logo.png'
+import Hamburger from "./Hamburger";
 function Header() {
   const navlinks = [
     {
@@ -22,28 +23,30 @@ function Header() {
         </Link>
         <div className="headerButton hover:cursor-pointer hidden md:flex xl:gap-20  lg:gap-12 md:gap-14 justify-end xl:w-[40vw] sm:w-[40vw] items-center text-white">
           <Link href="/#HeroPage">
-            <h1 className=" xl:text-2xl lg:text-3xl md:text-xl first-line: hover:text-[#48C9B0]">
+            <h1 className=" xl:text-xl lg:text-3xl md:text-xl first-line: hover:text-[#48C9B0]">
               Home
             </h1>
           </Link>
           <Link href="/#Skill">
-            <h1 className="xl:text-2xl lg:text-3xl md:text-xl first-line: hover:text-[#48C9B0]">
+            <h1 className="xl:text-xl lg:text-3xl md:text-xl first-line: hover:text-[#48C9B0]">
             Skill
             </h1>
           </Link>
           <Link href="/#Project">
-            <h1 className="xl:text-2xl lg:text-3xl md:text-xl first-line: hover:text-[#48C9B0]">
+            <h1 className="xl:text-xl lg:text-3xl md:text-xl first-line: hover:text-[#48C9B0]">
               Project
             </h1>
           </Link>
           <Link href="/#Contact">
-            <h1 className="xl:text-2xl lg:text-3xl md:text-xl first-line: hover:text-[#48C9B0]">
+            <h1 className="xl:text-xl lg:text-3xl md:text-xl first-line: hover:text-[#48C9B0]">
               Contact
             </h1>
           </Link>
+          
         </div>
-        <div className="icon md:hidden hover:cursor-pointer">
-        </div>
+        <div className="md:hidden">
+          <Hamburger/>
+          </div>
       </div>
     </>
   );

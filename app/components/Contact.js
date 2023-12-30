@@ -26,7 +26,7 @@ function Contact() {
   return (
     <div
       id="Contact"
-      className="2xl:h-[100vh] w-[100%] 2xl:py-20 xl:py-20 py-12 bg-zinc-950"
+      className=" w-[100%] 2xl:pt-20 xl:pt-20 pt-12 bg-zinc-950"
     >
       <h1 className="text-center 2xl:text-5xl xl:text-6xl lg:text-7xl md:text-5xl text-4xl my-5">
         Let's Chat
@@ -81,14 +81,14 @@ function Contact() {
                 value={data.preson}
                 name="preson"
                 placeholder="Name"
-                className="lg:pl-[2vw] pl-5 placeholder:text-[#48C9B0] md:mb-5 2xl:text-sm xl:text-xl lg:text-3xl md:text-xl lg:py-[1.5vh] md:py-4 py-[1vh] text-white rounded-sm lg:rounded-md bg-zinc-950 xl:w-[17vw] 2xl:mb-0 lg:mb-[2vw] mb-3  "
+                className="lg:pl-[2vw] pl-5 placeholder:text-[#48C9B0] md:mb-5 2xl:text-sm xl:text-xl lg:text-3xl md:text-xl text-sm lg:py-[1.5vh] md:py-4 py-[1vh] text-white rounded-sm lg:rounded-md bg-zinc-950 xl:w-[17vw] 2xl:mb-0 lg:mb-[2vw] mb-3  "
               />
               <input
                 onChange={handleChange}
                 type="email"
                 value={data.emailName}
                 name="emailName"
-                className="lg:pl-[2vw] pl-5 placeholder:text-[#48C9B0] 2xl:text-sm xl:text-xl lg:text-3xl md:text-xl lg:py-[1.5vh] py-[1vh] md:py-4 text-white rounded-sm lg:rounded-md bg-zinc-950 xl:w-[17vw] 2xl:mb-0 lg:mb-[2vw]"
+                className="lg:pl-[2vw] pl-5 placeholder:text-[#48C9B0] 2xl:text-sm xl:text-xl lg:text-3xl md:text-xl text-sm lg:py-[1.5vh] py-[1vh] md:py-4 text-white rounded-sm lg:rounded-md bg-zinc-950 xl:w-[17vw] 2xl:mb-0 lg:mb-[2vw]"
                 placeholder="Email"
                 id=""
               />
@@ -99,7 +99,7 @@ function Contact() {
                 value={data.message}
                 onChange={handleChange}
                 type="text"
-                className=" xl:w-[35vw] xl:text-sm w-[70vw] lg:pl-[2vw] pl-5 placeholder:text-[#48C9B0] lg:text-3xl lg:pt-3 xl:pb-16 lg:pb-20 md:pt-4 md:pb-14 pb-10 md:text-xl pt-[1vh] text-white rounded-sm xl:rounded-md bg-zinc-950 lg:mb-0"
+                className=" xl:w-[35vw] xl:text-sm w-[70vw] lg:pl-[2vw] text-sm pl-5 placeholder:text-[#48C9B0] lg:text-3xl lg:pt-3 xl:pb-16 lg:pb-20 md:pt-4 md:pb-14 pb-10 md:text-xl pt-[1vh] text-white rounded-sm xl:rounded-md bg-zinc-950 lg:mb-0"
                 placeholder="Any message"
               />
             </div>
@@ -112,6 +112,9 @@ function Contact() {
             Send
           </button>
         </div>
+      </div>
+      <div className=" text-xs text-[#48C9B0] sm:text-sm md:text-lg lg:text-xl font-[400] border-t-[#48c9af60] text-center py-4 border-t mx-5 lg:mx-10 ">
+      © Copyright 2023. Made by <Link href={'/'} className="text-white lg:underline-offset-2 underline-offset-1 hover: underline">Yash Kumar Singh</Link>
       </div>
     </div>
   );

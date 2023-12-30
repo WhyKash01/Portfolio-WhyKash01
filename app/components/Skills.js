@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div id='Skill' className='bg-zinc-950 w-[100%] 2xl:py-24 xl:py-28 sm:py-32 py-20'>
+    <div id='Skill' className='bg-zinc-950 border-b-[#48c9af60] border-b w-[100%] 2xl:py-24 xl:py-28 sm:py-32 py-20'>
         <h2 className='text-center 2xl:text-xl xl:text-xl md:text-2xl sm:text-xl text-sm  font-[400]' >Explore My</h2>
         <h1 className='text-center 2xl:text-5xl xl:text-6xl md:text-6xl sm:text-6xl text-4xl 2xl:mt-2 sm:mt-5 mt-0'>Experience</h1>
         <div className='flex 2xl:gap-20 md:gap-14 gap-10 flex-col xl:flex-row justify-center mx-10 sm:mx-14 md:mx-24 2xl:mx-20 2xl:mt-14 xl:mt-12 md:mt-24 sm:mt-14 mt-10'>
