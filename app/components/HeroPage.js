@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import hello from "../../public/hello.png";
+import hello from "./../../public/hello.png";
 const HeroPage = () => {
   return (
     <div id="HeroPage" className=" bg-zinc-950 w-[100%] h-[100vh] relative z-50 overflow-hidden px-[5vw] ">

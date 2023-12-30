@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import linkImag from '../../public/link2.png'
-import game1 from '../../public/Game1.png'
-import game3 from '../../public/Game.png'
-import game2 from '../../public/Game2.png'
-import game4 from '../../public/Game3.png'
-import Portfolio1 from '../../public/Portfolio1.png'
-import Portfolio3 from '../../public/Portfolio2.png'
-import Portfolio2 from '../../public/Portfolio5.png'
-import Portfolio4 from '../../public/Portfolio6.png'
+import linkImag from './../../public/link2.png'
+import game1 from './../../public/Game1.png'
+import game3 from './../../public/Game.png'
+import game2 from './../../public/Game2.png'
+import game4 from './../../public/Game3.png'
+import Portfolio1 from './../../public/Portfolio1.png'
+import Portfolio3 from './../../public/Portfolio2.png'
+import Portfolio2 from './../../public/Portfolio5.png'
+import Portfolio4 from './../../public/Portfolio6.png'
 const ProjectScreen = (props) => {
     const i=parseInt(props.i);
 

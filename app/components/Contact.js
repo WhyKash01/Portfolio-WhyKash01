@@ -1,6 +1,6 @@
 "use client";
-import Linkedin from '../../public/Linkedin1.png'
-import github from '../../public/github.png'
+import Linkedin from './../../public/Linkedin1.png'
+import github from './../../public/github.png'
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
