@@ -6,7 +6,7 @@ import Css from "./../../public/css.png";
 import Tailwind from "./../../public/tailwind-css.svg";
 import reactI from "./../../public/react-2.svg";
 import nextI from "./../../public/nexti.svg";
-import javaS from "./../../public/javaScript.svg";
+import javaS from "./../../public/javascript.svg";
 import typescript from "./../../public/typescript.svg";
 import nodeI from "./../../public/nodejs-icon.svg";
 import expressI from "./../../public/expr.png";
