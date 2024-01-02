@@ -54,13 +54,14 @@ function Contact() {
             in the latest fast paced environments.
           </h3>
           <div className="xl:mt-5 lg:mt-10 mt-3 flex 2xl:gap-5 lg:gap-8 gap-5">
-           <Link href={'https://github.com/WhyKash01'}>
+           <Link href={'https://www.linkedin.com/in/yash-kumar-singh-46a476257/'}>
             <Image
               src={Linkedin}
               className="2xl:w-10 2xl:h-10 xl:w-12 xl:h-12 lg:w-14 lg:h-14 md:w-10 md:h-10 h-8 w-8 cursor-pointer"
               ></Image>
               </Link>
-              <Link href={'https://www.linkedin.com/in/yash-kumar-singh-46a476257/'}>
+              
+              <Link href={'https://github.com/WhyKash01'}>
             <Image
               src={github}
               className="2xl:w-10 2xl:h-10 xl:w-12 xl:h-12 lg:w-14 lg:h-14 md:w-10 md:h-10 h-8 w-8 cursor-pointer "
