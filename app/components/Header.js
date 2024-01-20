@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 // import './Header.css';
 import logo from './../../public/logo.png'
-import Hamburger from "./Hamburger";
+import Ham from "./Ham";
 function Header() {
   const navlinks = [
     {
@@ -44,8 +44,9 @@ function Header() {
           </Link>
           
         </div>
+        
         <div className="md:hidden">
-          <Hamburger/>
+          <Ham/>
           </div>
       </div>
     </>

@@ -10,7 +10,7 @@ const Projects = () => {
         <ProjectScreen i={"0"}/>
         <ProjectScreen i={"1"}/>
         </div>
-        <div className="lg:w-[100vw] xl:block hidden w-[150vw] h-[80vw] lg:h-[80vw] overflow-hidden bg-gradient-radial from-[#48c9af] opacity-30 backdrop-brightness-50 blur-3xl rounded-full xl:top-[-150vh] xl:left-[0vw] md:top-[-100vh] top-[-50vh] left-[-10vw] z-10 relative"></div>
+        <div className="lg:w-[80vw] xl:block hidden w-[150vw] h-[80vw] lg:h-[50vw] overflow-hidden bg-[#48c9af] opacity-15 backdrop-brightness-50 blur-3xl rounded-full xl:top-[-130vh] xl:left-[0vw] md:top-[-100vh] top-[-50vh] left-[-10vw] z-10 relative"></div>
         
     </div>
   )

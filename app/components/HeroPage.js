@@ -37,7 +37,7 @@ const HeroPage = () => {
           ></Image>
         </div>
       </div>
-      <div className="xl:w-[80vw]  w-[120vw] h-[120vw] xl:h-[80vw] bg-gradient-radial from-[#48C9B0] opacity-30 backdrop-brightness-50 blur-2xl xl:left-[-20vw] xl:top-[-85vh] left-[-25vw] top-[-95vw]  md:left-[-10vw]  md:top-[-85vh] rounded-full  z-10 relative"></div>
+      <div className="xl:w-[80vw] w-[120vw] h-[120vw] xl:h-[80vw] bg-gradient-radial bg-[#48C9B0] opacity-15 backdrop-brightness-50 blur-2xl xl:left-[-20vw] xl:top-[-85vh] left-[-25vw] top-[-95vw]  md:left-[-10vw]  md:top-[-85vh] rounded-full  z-10 relative"></div>
     </div>
   );
 };
